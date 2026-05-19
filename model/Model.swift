@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum Player: String {
+    case x = "X"
+    case o = "O"
+}

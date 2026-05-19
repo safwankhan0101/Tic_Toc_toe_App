@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		922749672EF500F200B1DF91 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922749662EF500F200B1DF91 /* Model.swift */; };
+		922749692EF5014F00B1DF91 /* splashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922749682EF5014F00B1DF91 /* splashViewModel.swift */; };
+		9227496B2EF5017800B1DF91 /* gameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227496A2EF5017800B1DF91 /* gameViewModel.swift */; };
+		9227496D2EF5019700B1DF91 /* splashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227496C2EF5019700B1DF91 /* splashView.swift */; };
+		9227496F2EF501F600B1DF91 /* gameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9227496E2EF501F600B1DF91 /* gameView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		922749442EF5008200B1DF91 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,11 @@
 		922749362EF5008000B1DF91 /* ticTacToeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticTacToeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922749432EF5008200B1DF91 /* ticTacToeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticTacToeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9227494D2EF5008200B1DF91 /* ticTacToeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticTacToeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922749662EF500F200B1DF91 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		922749682EF5014F00B1DF91 /* splashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashViewModel.swift; sourceTree = "<group>"; };
+		9227496A2EF5017800B1DF91 /* gameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewModel.swift; sourceTree = "<group>"; };
+		9227496C2EF5019700B1DF91 /* splashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashView.swift; sourceTree = "<group>"; };
+		9227496E2EF501F600B1DF91 /* gameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,9 @@
 		9227492D2EF5008000B1DF91 = {
 			isa = PBXGroup;
 			children = (
+				922749652EF500D300B1DF91 /* model */,
+				922749612EF5009700B1DF91 /* views */,
+				922749602EF5009200B1DF91 /* viewModel */,
 				922749382EF5008000B1DF91 /* ticTacToeApp */,
 				922749462EF5008200B1DF91 /* ticTacToeAppTests */,
 				922749502EF5008200B1DF91 /* ticTacToeAppUITests */,
@@ -90,6 +106,32 @@
 				9227494D2EF5008200B1DF91 /* ticTacToeAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		922749602EF5009200B1DF91 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				922749682EF5014F00B1DF91 /* splashViewModel.swift */,
+				9227496A2EF5017800B1DF91 /* gameViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		922749612EF5009700B1DF91 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9227496C2EF5019700B1DF91 /* splashView.swift */,
+				9227496E2EF501F600B1DF91 /* gameView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		922749652EF500D300B1DF91 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				922749662EF500F200B1DF91 /* Model.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9227496F2EF501F600B1DF91 /* gameView.swift in Sources */,
+				922749672EF500F200B1DF91 /* Model.swift in Sources */,
+				9227496D2EF5019700B1DF91 /* splashView.swift in Sources */,
+				922749692EF5014F00B1DF91 /* splashViewModel.swift in Sources */,
+				9227496B2EF5017800B1DF91 /* gameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
